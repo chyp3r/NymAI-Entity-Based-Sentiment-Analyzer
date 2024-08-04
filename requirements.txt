@@ -1,0 +1,14 @@
+google-cloud-storage==1.40.0
+tensorflow==2.5.0
+transformers==4.8.2
+testfixtures==6.17.1
+optuna==2.8.0
+spacy==3.2.6
+typing_extensions==4.5.0
+ipython==7.3
+scikit-learn==0.24.2
+pytest==6.2.4
+pytest-timeout==1.4.2
+deep-translator==1.11.4
+fastapi==0.55.0 
+uvicorn==0.30.4
