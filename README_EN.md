@@ -113,7 +113,7 @@ The NymAI-Entity-Based-Sentiment-Analyzer utilizes an advanced BERT-based archit
 - This architecture combines sophisticated text preprocessing with powerful BERT-based sentiment analysis to deliver accurate and actionable insights into how specific entities are perceived in the text.
 
 ## Datasets
-- The datasets used for training and evaluation of the NymAI-Entity-Based-Sentiment-Analyzer are sourced from SemEval14, SemEval15, and SemEval16. These datasets are widely used benchmarks in the field of sentiment analysis and contain annotated reviews from various domains. The datasets are provided in CSV format and are located in the dataset folder of the project.
+The datasets used for training and evaluation of the NymAI-Entity-Based-Sentiment-Analyzer are sourced from SemEval14, SemEval15, and SemEval16. These datasets are widely used benchmarks in the field of sentiment analysis and contain annotated reviews from various domains. The datasets are provided in CSV format and are located in the dataset folder of the project.
 
 1. **SemEval14**: Includes reviews from laptop and restaurant domains. Each review is annotated with aspects and corresponding sentiments.
     - **Laptop Reviews**:
@@ -145,14 +145,14 @@ The NymAI-Entity-Based-Sentiment-Analyzer utilizes an advanced BERT-based archit
         aspect: The specific entity or feature being reviewed.
         sentiment: The sentiment expressed towards the aspect (e.g., positive, negative, neutral).
 
-- These datasets are crucial for training the BERT-based entity-based sentiment analysis model, allowing it to learn from a diverse set of reviews and accurately predict sentiments across different entities and domains.
+These datasets are crucial for training the BERT-based entity-based sentiment analysis model, allowing it to learn from a diverse set of reviews and accurately predict sentiments across different entities and domains.
 
-- During dataset experiments, these datasets were also translated into Turkish and used for training. However, the results from the Turkish datasets did not meet the desired performance levels. Consequently, it was decided to keep the datasets in their original language and translate the sentences to be processed instead. This approach ensures better accuracy and consistency in sentiment analysis.
+During dataset experiments, these datasets were also translated into Turkish and used for training. However, the results from the Turkish datasets did not meet the desired performance levels. Consequently, it was decided to keep the datasets in their original language and translate the sentences to be processed instead. This approach ensures better accuracy and consistency in sentiment analysis.
 
 ## Customizing Named Entity Recognition (NER) for Different Entity Types
-- In the ner.py file, the default implementation of the NER system focuses on identifying organization names (labeled as ORG) from the text. If you need to extract different types of entities (such as PERSON for people, LOC for locations, etc.), you will need to modify the NER system to accommodate these changes.
+In the ner.py file, the default implementation of the NER system focuses on identifying organization names (labeled as ORG) from the text. If you need to extract different types of entities (such as PERSON for people, LOC for locations, etc.), you will need to modify the NER system to accommodate these changes.
 
-- Here is how you can customize the entity extraction to focus on different types of entities:
+Here is how you can customize the entity extraction to focus on different types of entities:
 
 1. **Locate the Entity Extraction Code**: Find the lines in ner.py where entities are being extracted using the SpaCy models:
 
@@ -183,7 +183,7 @@ The NymAI-Entity-Based-Sentiment-Analyzer utilizes an advanced BERT-based archit
     By following these steps, you can customize the entity extraction process to focus on the specific types of entities relevant to your application. This flexibility allows you to adapt the NER system to a wide range of use cases beyond the default focus on organizations.
 
 ## License
-- This project is licensed under the Apache License 2.0. See the [LICENSE](https://github.com/chyp3r/NymAI-Entity-Based-Sentiment-Analyzer?tab=Apache-2.0-1-ov-file) file for details.
+This project is licensed under the Apache License 2.0. See the [LICENSE](https://github.com/chyp3r/NymAI-Entity-Based-Sentiment-Analyzer?tab=Apache-2.0-1-ov-file) file for details.
 
 ## Citation
 If you use this code or any part of it in your research, please consider citing our work:
