@@ -188,15 +188,14 @@ The NymAI-Entity-Based-Sentiment-Analyzer utilizes an advanced BERT-based archit
 ## Citation
 If you use this code or any part of it in your research, please consider citing our work:
     
----
-@misc{nymAI2024,
-author = {Gökdeniz Kuruca},
-title = {NymAI-Entity-Based-Sentiment-Analyzer},
-year = {2024},
-howpublished = {\url{https://github.com/chyp3r/NymAI-Entity-Based-Sentiment-Analyzer}},
-note = {Developed under the Alzcur team for the Teknofest 2024 Turkish Natural Language Processing competition.}
-}
----
+    @misc{nymAI2024,
+    author = {Gökdeniz Kuruca},
+    title = {NymAI-Entity-Based-Sentiment-Analyzer},
+    year = {2024},
+    howpublished = {\url{https://github.com/chyp3r/NymAI-Entity-Based-Sentiment-Analyzer}},
+    note = {Developed under the Alzcur team for the Teknofest 2024 Turkish Natural Language Processing competition.}
+    }
+
 
 ## Acknowledgements
 
