@@ -4,7 +4,7 @@
 To change the English version of these documents, you can review the [README_EN.md](https://github.com/chyp3r/NymAI-Entity-Based-Sentiment-Analyzer/blob/main/README_EN.md) file.
 
 ## Proje Genel Bakışı
-NymAI, Gökdeniz Kuruca tarafından "NymAI" proje adı altında geliştirilen gelişmiş bir duygu analizi aracıdır. Bu proje, Teknofest 2024 Türkçe Doğal Dil İşleme (NLP) yarışmasına katılmak üzere bir aylık bir süre içinde titizlikle hazırlanmıştır.
+NymAI, Gökdeniz Kuruca tarafından "Alzcur" takımı adı altında geliştirilen gelişmiş bir duygu analizi aracıdır. Bu proje, Teknofest 2024 Türkçe Doğal Dil İşleme (NLP) yarışmasına katılmak üzere bir aylık bir süre içinde titizlikle hazırlanmıştır.
 
 Bu projenin temel amacı, metinsel verilerdeki çeşitli varlıklarla ilişkili duyguları analiz etmek, gelişmiş doğruluk ve etkinlik için son teknoloji BERT tabanlı modellerden yararlanmaktır. Çözüm, adlandırılmış varlık tanıma (NER) ile duygu analizini birleştirerek karmaşık NLP görevlerini ele almak üzere tasarlanmıştır ve böylece metinlerde belirtilen belirli varlıklarla ilgili duygulara ilişkin değerli içgörüler sağlar.
 

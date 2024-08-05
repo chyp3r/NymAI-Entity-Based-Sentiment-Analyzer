@@ -1,7 +1,7 @@
 # NymAI: Entity Based Sentiment Analyzer
 
 ## Project Overview
-NymAI is an advanced sentiment analysis tool developed under the project name "NymAI" by Gökdeniz Kuruca. This project was meticulously crafted within a span of one month to participate in the Teknofest 2024 Turkish Natural Language Processing (NLP) competition.
+NymAI is an advanced sentiment analysis tool developed under the team name "Alzcur" by Gökdeniz Kuruca. This project was meticulously crafted within a span of one month to participate in the Teknofest 2024 Turkish Natural Language Processing (NLP) competition.
 
 The primary goal of this project is to analyze sentiments associated with various entities within textual data, leveraging cutting-edge BERT-based models for improved accuracy and effectiveness. The solution is designed to handle complex NLP tasks by combining named entity recognition (NER) with sentiment analysis, thus providing valuable insights into the sentiments related to specific entities mentioned in texts.
 
