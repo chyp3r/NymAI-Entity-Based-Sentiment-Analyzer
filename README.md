@@ -163,16 +163,16 @@ Farklı varlık türlerine odaklanmak için varlık çıkarmayı nasıl özelle�
 
 2. **Varlık Etiketini Değiştirin**: ORG'yi ilgilendiğiniz varlık türü için uygun etiketle değiştirin. SpaCy, farklı varlık türleri için çeşitli etiketler sağlar. Kullanabileceğiniz bazı yaygın etiketler şunlardır:
 
-    PERSON: Kurgusal olanlar da dahil olmak üzere insanlar.
-    NORP: Milliyetler veya dini veya siyasi gruplar. FAC: Binalar, havaalanları, otoyollar, köprüler, vb.
-    ORG: Şirketler, ajanslar, kurumlar, vb.
-    GPE: Ülkeler, şehirler, eyaletler.
-    LOC: GPE dışı konumlar, dağ sıraları, su kütleleri.
-    PRODUCT: Nesneler, araçlar, yiyecekler, vb. (hizmetler değil).
-    EVENT: Adlandırılmış kasırgalar, savaşlar, savaşlar, spor etkinlikleri, vb.
-    WORK_OF_ART: Kitap, şarkı, vb. başlıkları
-    LAW: Yasa haline getirilmiş adlandırılmış belgeler.
-    LANGUAGE: Herhangi bir adlandırılmış dil.
+        PERSON: Kurgusal olanlar da dahil olmak üzere insanlar.
+        NORP: Milliyetler veya dini veya siyasi gruplar. FAC: Binalar, havaalanları, otoyollar, köprüler, vb.
+        ORG: Şirketler, ajanslar, kurumlar, vb.
+        GPE: Ülkeler, şehirler, eyaletler.
+        LOC: GPE dışı konumlar, dağ sıraları, su kütleleri.
+        PRODUCT: Nesneler, araçlar, yiyecekler, vb. (hizmetler değil).
+        EVENT: Adlandırılmış kasırgalar, savaşlar, savaşlar, spor etkinlikleri, vb.
+        WORK_OF_ART: Kitap, şarkı, vb. başlıkları
+        LAW: Yasa haline getirilmiş adlandırılmış belgeler.
+        LANGUAGE: Herhangi bir adlandırılmış dil.
 
 3. **Örnek Değişiklik**: ORG yerine PERSON varlıklarını çıkarmak için satırları aşağıdaki gibi değiştirirsiniz:
 
