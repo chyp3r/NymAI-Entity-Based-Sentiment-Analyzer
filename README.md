@@ -133,7 +133,8 @@ Modelin eğitimi ve değerlendirilmesi için kullanılan veri kümeleri SemEval1
     Yorum sayısı: 1315
     Yön sayısı: 2448
 
-3. **SemEval16**: Daha ayrıntılı yön kategorilerine ve ek duygu sınıflarına odaklanarak veri setini daha da genişletir. - **Restoran İncelemeleri**:
+3. **SemEval16**: Daha ayrıntılı yön kategorilerine ve ek duygu sınıflarına odaklanarak veri setini daha da genişletir. 
+- **Restoran İncelemeleri**:
     İnceleme sayısı: 2000
     Yön sayısı: 1743
     - **Dizüstü Bilgisayar İncelemeleri**:
@@ -199,7 +200,7 @@ Bu kodu veya herhangi bir bölümünü araştırmanızda kullanırsanız, lütfe
 
 ## Teşekkürler
 
-Bu projenin kodunun bazı bölümleri [Aspect-Based Sentiment Analysis](https://github.com/ScalaConsultants/Aspect-Based-Sentiment-Analysis) deposundan uyarlanmıştır. Bu projenin geliştirilmesinde etkili olan katkılarından dolayı bu deponun yazarlarına şükranlarımızı sunarız.
+Bu projenin kodunun bazı bölümleri [Aspect-Based Sentiment Analysis](https://github.com/ScalaConsultants/Aspect-Based-Sentiment-Analysis) deposundan uyarlanmıştır. Bu projenin geliştirilmesinde etkili olan katkılarından dolayı bu deponun yazarlarına teşekkürlerimizi sunarız.
 
 Kullanım ve dağıtım terimleri hakkında ayrıntılar için lütfen [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)'a bakın.
 
