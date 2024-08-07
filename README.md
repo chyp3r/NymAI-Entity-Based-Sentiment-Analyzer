@@ -27,7 +27,7 @@ Bu projenin temel amacı, metinsel verilerdeki çeşitli varlıklarla ilişkili 
 
 2. **Bağımlılıkları Yükle**:
     ```bash
-    python -m venv env
+    python -m venv env # env açarak kurmak için eğer localde çalışmak istiyorsanız veya hata alıyorsanız doğrudan 3. satıra geçin
     source env/bin/activate # Windows'ta `env\Scripts\activate` kullanın
     pip install -r requirements.txt
 
@@ -129,17 +129,12 @@ Modelin eğitimi ve değerlendirilmesi için kullanılan veri kümeleri SemEval1
     - **Otel Yorumları**:
     Yorum sayısı: 2000
     Yön sayısı: 1692
-    - **Cihaz Yorumları**:
-    Yorum sayısı: 1315
-    Yön sayısı: 2448
 
 3. **SemEval16**: Daha ayrıntılı yön kategorilerine ve ek duygu sınıflarına odaklanarak veri setini daha da genişletir. 
 - **Restoran İncelemeleri**:
     İnceleme sayısı: 2000
     Yön sayısı: 1743
-    - **Dizüstü Bilgisayar İncelemeleri**:
-    İnceleme sayısı: 3000
-    Yön sayısı: 2949
+
 
     Her veri kümesi tipik olarak şunları içeren sütunlar içerir:
 

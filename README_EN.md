@@ -127,18 +127,13 @@ The datasets used for training and evaluation of the NymAI-Entity-Based-Sentimen
     - **Hotel Reviews**:
         Number of reviews: 2000
         Number of aspects: 1692
-    - **Device Reviews**:
-        Number of reviews: 1315
-        Number of aspects: 2448
+
 
 3. **SemEval16**: Further extends the dataset with a focus on more granular aspect categories and additional sentiment classes.
     - **Restaurant Reviews**:
         Number of reviews: 2000
         Number of aspects: 1743
-    - **Laptop Reviews**:
-        Number of reviews: 3000
-        Number of aspects: 2949
-    
+
     Each dataset contains columns that typically include:
     
         text: The text of the review.

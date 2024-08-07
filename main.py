@@ -1,6 +1,6 @@
 from utils_text import translate_to_en, space_handler, clean_text, output_formater
 from ner import special_cases, find_company_names, change_tr_ner
-from ebsa_model import absa_sentiment
+from ebsa_model import ebsa_sentiment
 
 class MainModel:
     """
@@ -50,7 +50,7 @@ class MainModel:
         ner_results = change_tr_ner(text, self.company_set)
         
         # ABSA modelini kullanarak duygu analizi yap
-        sentiments = absa_sentiment(ner_results.keys(), cleaned_text)
+        sentiments = ebsa_sentiment(ner_results.keys(), cleaned_text)
         
         # Sonuçları formatla ve sakla
         self.output = output_formater(sentiments, ner_results)
