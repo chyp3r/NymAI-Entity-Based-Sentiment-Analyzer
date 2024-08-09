@@ -18,7 +18,7 @@ def simple_stem(word):
     return word
 
 def clean_text(tweet): 
-    """
+    """ 
     Tweet metnini temizler ve işler.
     URL'leri, durak kelimeleri ve özel karakterleri kaldırır.
     
@@ -30,13 +30,13 @@ def clean_text(tweet):
     """
     # İngilizce durak kelimelerini yükle
     stop_words = set(stopwords.words('english'))
-    
+
     # URL'leri kaldır
     tweet = re.sub(r"http\S+|www\S+|https\S+", '', tweet, flags=re.MULTILINE)
     
     # Durak kelimeleri ve kök çıkarıcı işlemi uygula
-    tweet = ' '.join([simple_stem(word) for word in tweet.split() if word not in stop_words])
-    
+    tweet = ' '.join([simple_stem(word) for word in tweet.split() if not word in stop_words])
+
     # Özel karakterleri kaldır
     tweet = tweet.translate(str.maketrans('', '', '!"#$%&\'()*+,-./:;<=>?[\\]^`{|}~'))
     
@@ -130,9 +130,10 @@ def sentiment_formater(sentiment):
     Returns:
         str: Formatlanmış duygu metni.
     """
-    sentiment_list = ["Nötr", "Olumsuz", "Olumlu"]
+    sentiment_list = ["nötr", "olumsuz", "olumlu"]
     try:
         return sentiment_list[sentiment]
     except Exception as e:
         print(f"Hata: {e}")
         return None
+    

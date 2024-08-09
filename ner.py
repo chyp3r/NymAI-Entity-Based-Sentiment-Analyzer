@@ -1,5 +1,5 @@
 import spacy
-from utils_text import translate_to_tr, translate_to_en
+from utils_text import translate_to_tr, translate_to_en,simple_stem
 from utils_ner import create_distance_list, find_closest_word
 from download_manager import ensure_en_core_web
 
@@ -61,10 +61,11 @@ def change_tr_ner(text, company_set):
         if i.lower() not in text.lower():
             translated = translate_to_tr(i)
             if translated in text:
-                final_entity_list[i] = translated
+                final_entity_list[i] = simple_stem(translated)
             else:
                 # En yakın eşleşeni bulmak için metni parçalara ayır ve karşılaştır
-                final_entity_list[i] = find_closest_word(translated, create_distance_list(text.split(" "), len(translated.split(" "))))
+                print(translated)
+                final_entity_list[i] = simple_stem(find_closest_word(translated, create_distance_list(text.split(" "), len(translated.split(" ")))))
         else:
-            final_entity_list[i] = i  # Eğer metinde bulunuyorsa, şirket adını olduğu gibi ekle
+            final_entity_list[i] = simple_stem(i)  # Eğer metinde bulunuyorsa, şirket adını olduğu gibi ekle
     return final_entity_list

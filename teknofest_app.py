@@ -13,7 +13,7 @@ class Item(BaseModel):
         text (str): İşlenecek metni temsil eden zorunlu bir alan.
     """
     # Testler için değiştirilecek satır
-    text: str = Field(..., example="""Türkiye Teknoloji Takımı'nın düzenldiği bu yarışma harika""")
+    text: str = Field(..., example="""Türk Başkonsolosluğu konuyla yakından ilgileniyor. Türkiye Teknoloji Takımı kötü bir hal aldı. Futbol Kulüpler Birliği yolun sonuna geldi""")
 
 @app.post("/predict/", response_model=dict)
 async def predict(item: Item):
@@ -39,4 +39,4 @@ async def predict(item: Item):
 
 if __name__ == "__main__":
     # FastAPI uygulamasını başlat
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8042)
